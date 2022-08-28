@@ -12,8 +12,8 @@ include_directories(${OpenCV_INCLUDE_DIRS})
 link_directories(${OpenCV_LIBRARY_DIRS})
 
 file(GLOB_RECURSE SRC "*.cpp")
-add_executable(vk_badapple_cxx ${SRC})
+add_executable(vk_badapple_cpp ${SRC})
 
 find_library(cpp_vk_lib HINTS "../cpp_vk_lib")
 find_library(simdjson HINTS "../cpp_vk_lib/modules/simdjson")
-target_link_libraries(vk_badapple_cxx cpp_vk_lib simdjson ${OpenCV_LIBS})
+target_link_libraries(vk_badapple_cpp cpp_vk_lib simdjson ${OpenCV_LIBS})
