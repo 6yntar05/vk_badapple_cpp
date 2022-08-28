@@ -1,7 +1,7 @@
 # vk_badapple_cpp
 Badapple bot for VKontakte
 
-![](https://github.com/6yntar05/vk_badapple_cpp/blob/master/git_res/Youmu.gif)
+![](https://github.com/6yntar05/vk_badapple_cpp/blob/main/git_res/Youmu.gif)
 
 ## Dependencies
 - OpenCV
