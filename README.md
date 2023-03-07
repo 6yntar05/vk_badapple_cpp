@@ -1,7 +1,7 @@
 # vk_badapple_cpp
 Badapple bot for VKontakte
 
-![](https://github.com/6yntar05/vk_badapple_cpp/blob/main/git_res/Youmu.gif)
+![](git_res/Youmu.gif)
 
 ## Dependencies
 - OpenCV
@@ -10,6 +10,8 @@ For prepare_video.sh:
 
 ## Building
 ```sh
+git submodule init
+git submodule update
 cmake .
 cmake --build ./ -j$(nproc)
 # Now binary is in ./build
@@ -36,4 +38,4 @@ cd build
 - VK limits the number of message edits
 Workaround: After an error occurs, send frames with a new message
 
-Based on [cpp_vk_lib](https://github.com/epoll-reactor/cpp_vk_lib)
+Based on [cpp_vk_lib](https://gitlab.com/epoll-reactor/cpp_vk_lib)
